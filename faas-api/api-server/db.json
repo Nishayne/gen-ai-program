@@ -1,0 +1,72 @@
+{
+  "dashboard": {
+    "tiles": [
+      {
+        "id": "1",
+        "title": "Leave Summary",
+        "content": "10 leaves remaining"
+      },
+      {
+        "id": "2",
+        "title": "Pod Members",
+        "content": "3 active members"
+      }
+    ]
+  },
+  "lms": {
+    "leaveApplications": [
+      {
+        "id": "12345",
+        "userId": "1",
+        "name": "John Doe",
+        "startDate": "2025-03-15",
+        "endDate": "2025-03-18",
+        "reason": "Family event",
+        "status": "approved"
+      }
+    ]
+  },
+  "pods": {
+    "details": {
+      "podId": "56789",
+      "podName": "Innovation Team",
+      "members": [
+        {
+          "id": "1",
+          "name": "John Doe",
+          "role": "Lead Developer"
+        },
+        {
+          "id": "2",
+          "name": "Jane Smith",
+          "role": "UI/UX Designer"
+        }
+      ]
+    },
+    "recommendations": [
+      {
+        "podId": "56789",
+        "podName": "Innovation Team",
+        "members": [
+          {
+            "id": "3",
+            "name": "User 3",
+            "role": "Recommended Member"
+          }
+        ]
+      }
+    ]
+  },
+  "auth": {
+    "users": [
+      {
+        "id": "1",
+        "email": "user@example.com",
+        "password": "securepassword",
+        "name": "John Doe",
+        "role": "manager",
+        "token": "jwt-token-here"
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+    "/api/dashboard": "/dashboard",
+    "/api/lms/leave/apply": "/lms/leaveApplications",
+    "/api/lms/leave/approve": "/lms/leaveApplications",
+    "/api/pods/details": "/pods/details",
+    "/api/pods/recommend": "/pods/recommendations",
+    "/api/auth/login": "/auth/users",
+    "/api/auth/me": "/auth/users/1"
+  }
+  
+
